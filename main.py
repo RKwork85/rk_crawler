@@ -37,7 +37,7 @@ async def main():
     # parse cmd
     await cmd_arg.parse_cmd()
 
-    # init db
+    # init db2
     if config.SAVE_DATA_OPTION == "db":
         await db.init_db()
 

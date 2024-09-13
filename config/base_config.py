@@ -1,6 +1,8 @@
 # 基础配置
 PLATFORM = "xhs"
 KEYWORDS = "编程副业,编程兼职"
+# KEYWORDS = "大学生找工作"
+
 LOGIN_TYPE = "qrcode"  # qrcode or phone or cookie
 COOKIES = ""
 # 具体值参见media_platform.xxx.field下的枚举值，暂时只支持小红书
