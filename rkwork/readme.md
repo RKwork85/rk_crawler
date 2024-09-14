@@ -60,3 +60,8 @@
 
 3 第一次登录扫码后会有缓存记录
 
+4 在mysql中创建 数据库，修改配置文件,运行db.py文件
+
+>D:\rkwork\project\crawler\MediaCrawler\config\db_config.py
+
+>CREATE DATABASE media_crawler;
