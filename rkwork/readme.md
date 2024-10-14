@@ -1,9 +1,15 @@
 # 项目分析
 
+## 支持平台
+**小红书**，**抖音**， **快手**， **B站**， **微博**，**百度贴吧**，**知乎**...。  
+
+![项目架构图](./images/whiteboard_exported_image.png)
+<!-- <img src="./images/whiteboard_exported_image.png" alt="项目架构图" width="800" height="600"> -->
+
 ## 一、命令解释
 
 1 参数 平台/验证方式/动作类型
-> python main.py --platform dy --lt qrcode --type search     
+> python main.py --platform xhs --lt qrcode --type search     
 
 ## 二、参数解析
 
@@ -65,3 +71,5 @@
 >D:\rkwork\project\crawler\MediaCrawler\config\db_config.py
 
 >CREATE DATABASE media_crawler;
+
+5 爬取数量过多，会被限制访问
